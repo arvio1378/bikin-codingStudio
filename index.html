@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Studio</title>
+    <script src="https://kit.fontawesome.com/cb30ddf7c8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="dist/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- menu -->
+    <header>
+        <nav class="flex justify-between items-center py-3 px-20 mx-auto">
+            <i class="fa-solid fa-bars hidden max-md:block"></i>
+            <div class="profile flex flex-row items-center">
+                <a href="#" class="mx-5"><img class="rounded-xl" src="images/logo.webp" alt="Icon Home"></a>
+                <a href="#" class="text-sm max-md:hidden">Member Area</a>
+            </div>
+            <div class="icon">
+                <a href="#"><i class="fa-regular fa-bell text-2xl"></i></a>
+                <a href="#"><i class="fa-solid fa-user text-2xl border rounded-full p-1 mx-5 bg-gray-300 opacity-20 max-md:hidden"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- home -->
+    <section class="bg-gray-100">
+        <div class="flex justify-between items-center mx-auto w-4/5 max-md:flex-col-reverse">
+            <div class="title p-5">
+                <h1 class="text-teal-600 font-bold text-4xl mb-3">Semua bisa #MahirTeknologi</h1>
+                <p class="text-justify">Persiapkan dirimu dari sekarang. Dimulai dari belajar skill yang dibutuhkan oleh startup dan industri saat ini. Yuk, tingkatkan skillmu sekarang juga.</p>
+            </div>
+            <div class="img p-5">
+                <img class="rounded-xl max-w-full w-[60vw]" src="images/gambar-awal.webp" alt="gambar-awal">
+            </div>
+        </div>
+    </section>
+
+    <!-- video -->
+    <section class="py-24">
+        <div class= "mx-auto w-11/12 bg-teal-50 p-7 rounded-xl shadow-xl">
+            <h1 class="text-2xl font-bold text-teal-600 pb-7">Siapkah Kamu Terhadap Transformasi Digital?</h1>
+            <div class="video flex justify-between items-center max-md:flex-col">
+                <iframe src="https://youtu.be/VzRVPJVN_7s" width="300" height="200" class="w-full max-md:h-80" frameborder="0"></iframe>
+                <p class="p-6">Saat ini, Indonesia mengalami masa bonus demografi dan diperkirakan puncaknya di tahun 2030 mendatang, namun masih terjadi digital talent gap yaitu kekurangan talenta digital di Indonesia, salah satu penyebabnya karena banyak pekerjaan lama yang hilang dan digantikan oleh pekerjaan baru karena transformasi digital.<br><br>
+                Kondisi ini menunjukkan adanya kesenjangan antara jumlah tenaga kerja yang tersedia dengan kebutuhan tenaga kerja yang mempunyai keterampilan di bidang digital. <b>Pertanyaannya adalah, sudahkah kamu mempersiapkan diri?</b></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- skill -->
+    <section class= "mx-auto text-teal-600 py-10 px-20">
+        <h1 class="text-2xl font-bold text-center pb-7">Tenang aja, Kamu bisa ningkatin skill bareng Coding Studio</h1>
+        <div class="skill grid grid-cols-3 text-center max-md:grid-cols-none">
+            <div class="skill-detail p-10">
+                <i class="fa-solid fa-display text-5xl pb-3"></i>
+                <p class="text-xl font-bold">Akses Materi Selamanya</p>
+            </div>
+            <div class="skill-detail p-10">
+                <i class="fa-solid fa-list-check text-5xl pb-3"></i>
+                <p class="text-xl font-bold">Studi Kasus dan Proyek</p>
+            </div>
+            <div class="skill-detail p-10">
+                <i class="fa-solid fa-user-tie text-5xl pb-3"></i>
+                <p class="text-xl font-bold">Pengajar Berpengalaman</p>
+            </div>
+            <div class="skill-detail p-10">
+                <i class="fa-regular fa-clock text-5xl pb-3"></i>
+                <p class="text-xl font-bold">Waktu Belajar Fleksibel</p>
+            </div>
+            <div class="skill-detail p-10">
+                <i class="fa-solid fa-medal text-5xl pb-3"></i>
+                <p class="text-xl font-bold">Mendapat Sertifikat</p>
+            </div>
+            <div class="skill-detail p-10">
+                <i class="fa-regular fa-comment text-5xl pb-3"></i>
+                <p class="text-xl font-bold">Berbahasa Indonesia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- kursus -->
+    <section class="bg-gray-100 py-10">
+        <div class="w-11/12 mx-auto">
+            <h1 class="text-2xl font-bold text-center pb-7 text-teal-600">Rekomendasi Kursus Untukmu</h1>
+            <div class="grid grid-cols-3 max-md:grid-cols-none">
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/kursus-1.jpg" alt="kursus-1">
+                    <p>Kursus Online</p>
+                    <h2 class="text-xl text-teal-600 font-bold">Belajar Penetration Testing Untuk Pemula</h2><br>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 410.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 99.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Kursus</button>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/kursus-2.jpg" alt="kursus-2">
+                    <p>Kursus Online</p>
+                    <h2 class="text-xl text-teal-600 font-bold">Menguasai Bahasa Inggris Untuk Pemula</h2><br>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 250.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 39.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Kursus</button>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/kursus-3.jpg" alt="kursus-3">
+                    <p>Kursus Online</p>
+                    <h2 class="text-xl text-teal-600 font-bold">Belajar Cyber Security Untuk Pemula</h2><br>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 350.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 79.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Kursus</button>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/kursus-4.jpg" alt="kursus-4">
+                    <p>Kursus Online</p>
+                    <h2 class="text-xl text-teal-600 font-bold">Mahir Membuat Website Dengan Laravel 9</h2><br>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 350.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 79.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Kursus</button>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/kursus-5.jpg" alt="kursus-5">
+                    <p>Kursus Online</p>
+                    <h2 class="text-xl text-teal-600 font-bold">Membuat Game 2D Untuk Pemula</h2><br>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 390.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 99.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Kursus</button>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/kursus-6.jpg" alt="kursus-6">
+                    <p>Kursus Online</p>
+                    <h2 class="text-xl text-teal-600 font-bold">Membuat Game 3D Bagi Pemula</h2><br>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 390.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 99.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Kursus</button>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/kursus-7.jpg" alt="kursus-7">
+                    <p>Kursus Online</p>
+                    <h2 class="text-xl text-teal-600 font-bold">Menguasai Fundamental Excel</h2><br>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 310.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 99.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Kursus</button>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/kursus-8.jpg" alt="kursus-8">
+                    <p>Kursus Online</p>
+                    <h2 class="text-xl text-teal-600 font-bold">Belajar SPSS Level Pemula</h2><br>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 300.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 99.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Kursus</button>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/kursus-9.jpg" alt="kursus-9">
+                    <p>Kursus Online</p>
+                    <h2 class="text-xl text-teal-600 font-bold">Menguasai Fundamental Python</h2><br>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 280.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 79.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Kursus</button>
+                </div>
+            </div>
+            <button class="border border-rose-600 p-2 mt-5 flex justify-center rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white mx-auto">Lihat Semua Kursus</button>
+        </div>
+    </section>
+
+    <!-- diskon -->
+    <section class="py-24">
+        <div class= "mx-auto bg-teal-50 w-11/12 p-10 rounded-xl">
+            <h1 class="text-2xl font-bold text-teal-600 pb-7 text-center">DISKON 90% UNTUK SEMUA PAKET KURSUS ONLINE</h1>
+            <div class="flex justify-between items-center max-md:flex-col">
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/diskon-1.jpg" alt="diskon-1">
+                    <h3 class="font-bold">Paket Kursus Online</h3>
+                    <h2 class="text-xl text-teal-600 font-bold">Mahir Cyber Security</h2>
+                    <h3 class="font-bold">(4 Kursus + BONUS 1 kursus)</h3>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 1.260.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 126.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Paket Kursus</button>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/diskon-2.jpg" alt="diskon-2">
+                    <h3 class="font-bold">Paket Kursus Online</h3>
+                    <h2 class="text-xl text-teal-600 font-bold">Mahir Data Analytic</h2>
+                    <h3 class="font-bold">(4 Kursus + BONUS 1 kursus)</h3>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 1.310.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 131.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Paket Kursus</button>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <img class="rounded-xl" src="images/diskon-3.jpg" alt="diskon-3">
+                    <h3 class="font-bold">Paket Kursus Online</h3>
+                    <h2 class="text-xl text-teal-600 font-bold">Mahir Microsoft Excel</h2>
+                    <h3 class="font-bold">(3 Kursus + BONUS 1 kursus)</h3>
+                    <h4 class="text-rose-600 font-bold"><del>Rp 1.210.000</del></h4>
+                    <h3 class="text-xl text-teal-600 font-bold">Rp 121.000</h3>
+                    <button class="border border-rose-600 w-full py-2 rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white">Lihat Paket Kursus</button>
+                </div>
+            </div>
+            <button class="border border-rose-600 p-2 mt-5 flex justify-center rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white mx-auto">Lihat Semua Promo</button>
+        </div>
+    </section>
+
+    <!-- bacaan -->
+    <section class="bg-gray-100">
+        <div class= "mx-auto w-11/12 p-10 rounded-xl">
+            <h1 class="text-2xl font-bold text-teal-600 pb-7 text-center">Bacaan Seputar Teknologi</h1>
+            <div class="grid grid-cols-3 max-md:grid-cols-none max-lg:grid-cols-2">
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <div class="relative">
+                        <img class="rounded-xl mb-5 w-full" src="images/bacaan-1.jpg" alt="bacaan-1">
+                        <p class="absolute top-0 right-0 text-white bg-teal-600 rounded-xl py-1 px-3 text-sm">DATA</p>
+                    </div>
+                    <h2 class="text-xl text-teal-600 font-bold mb-3">Uji Multikolinearitas SPSS dan Cara Bacanya</h2>
+                    <p class="mb-5 text-sm">Uji Multikolinearitas SPS adalah bagian dari uji asumsi klasik dalam analisis regresi linear berganda.</p>
+                    <a href="#" class="text-sm text-teal-600">BACA SELENGKAPNYA >></a>
+                    <p class="text-sm border-t pt-2">February 4, 2023</p>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <div class="relative">
+                        <img class="rounded-xl mb-5 w-full" src="images/bacaan-2.jpg" alt="bacaan-2">
+                        <p class="absolute top-0 right-0 text-white bg-teal-600 rounded-xl py-1 px-3 text-sm">WEBSITE DEVELOPMENT</p>
+                    </div>
+                    <h2 class="text-xl text-teal-600 font-bold mb-3">Apa itu CSS dan Fungsinya dalam Website</h2>
+                    <p class="mb-5 text-sm">Masih belum tahu apa itu CSS? Kamu pasti membutuhkannya di setiap website agar terlihat menarik.</p>
+                    <a href="#" class="text-sm text-teal-600"> BACA SELENGKAPNYA >></a>
+                    <p class="text-sm border-t pt-2">June 7, 2021</p>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <div class="relative">
+                        <img class="rounded-xl mb-5 w-full" src="images/bacaan-3.jpg" alt="bacaan-3">
+                        <p class="absolute top-0 right-0 text-white bg-teal-600 rounded-xl py-1 px-3 text-sm">WEBSITE DEVELOPMENT</p>
+                    </div>
+                    <h2 class="text-xl text-teal-600 font-bold mb-3">CRUD PHP: Pengertian, Fungsi dan Tutorial Membuatnya</h2>
+                    <p class="mb-5 text-sm">Di era yang semakin maju ini, teknologi sangat berkembang pesat contohnya yaitu adanya perkembangan pada dunia bahasa pemrograman.</p>
+                    <a href="#" class="text-sm text-teal-600"> BACA SELENGKAPNYA >></a>
+                    <p class="text-sm border-t pt-2">February 5, 2023</p>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <div class="relative">
+                        <img class="rounded-xl mb-5 w-full" src="images/bacaan-4.jpg" alt="bacaan-4">
+                        <p class="absolute top-0 right-0 text-white bg-teal-600 rounded-xl py-1 px-3 text-sm">CYBER SECURITY</p>
+                    </div>
+                    <h2 class="text-xl text-teal-600 font-bold mb-3">Mengenal Cyber Security Lebih Dalam</h2>
+                    <p class="mb-5 text-sm">Mengenal Cyber Security merupakan suatu aktivitas yang dilakukan melindungi sebuah informasi</p>
+                    <a href="#" class="text-sm text-teal-600"> BACA SELENGKAPNYA >></a>
+                    <p class="text-sm border-t pt-2">June 28, 2021</p>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <div class="relative">
+                        <img class="rounded-xl mb-5 w-full" src="images/bacaan-5.jpg" alt="bacaan-5">
+                        <p class="absolute top-0 right-0 text-white bg-teal-600 rounded-xl py-1 px-3 text-sm">PROGRAMMING</p>
+                    </div>
+                    <h2 class="text-xl text-teal-600 font-bold mb-3">IT Adalah: Pengertian dan Peranan Pentingnya</h2>
+                    <p class="mb-5 text-sm">IT adalah sebuah teknologi penting yang bisa membantu manusia dalam membuat, menyimpan, mengolah dan juga menyebarkan informasi.</p>
+                    <a href="#" class="text-sm text-teal-600"> BACA SELENGKAPNYA >></a>
+                    <p class="text-sm border-t pt-2">February 10, 2023</p>
+                </div>
+                <div class="shadow-xl p-5 bg-white rounded-xl m-3">
+                    <div class="relative">
+                        <img class="rounded-xl mb-5 w-full" src="images/bacaan-6.jpg" alt="bacaan-6">
+                        <p class="absolute top-0 right-0 text-white bg-teal-600 rounded-xl py-1 px-3 text-sm">UI/UX DESIGN</p>
+                    </div>
+                    <h2 class="text-xl text-teal-600 font-bold mb-3">User Interface Design vs User Experience, Apa Pentingnya?</h2>
+                    <p class="mb-5 text-sm">Dunia bisnis memang menakjubkan, kita dituntun untuk selalu bisa dan belajar untuk dapat mengembangkan bisnis</p>
+                    <a href="#" class="text-sm text-teal-600"> BACA SELENGKAPNYA >></a>
+                    <p class="text-sm border-t pt-2">September 21, 2022</p>
+                </div>
+            </div>
+            <button class="border border-rose-600 p-2 mt-5 flex justify-center rounded-xl text-rose-600 font-bold duration-300 hover:bg-rose-600 hover:text-white mx-auto">Lihat Semua Artikel</button>
+        </div>
+    </section>
+
+    <!-- liputan -->
+    <section>
+        <div class="py-10 mx-auto">
+            <h1 class="text-center font-bold text-gray-600 text-xl">Telah diliput oleh:</h1>
+            <div class="flex justify-center gap-5 max-md:grid max-md:grid-cols-3 max-md:place-items-center">
+                <a href="#"><img src="images/detik-2.webp" alt="logo detik"></a>
+                <a href="#"><img src="images/idntimeslogo.webp" alt="logo idn-times"></a>
+                <a href="#"><img src="images/logokompas.webp" alt="logo kompas"></a>
+                <a href="#"><img src="images/logo-okezone.webp" alt="logo okezone"></a>
+                <a href="#"><img src="images/logo-line-today.webp" alt="logo line-today"></a>
+                <a href="#"><img src="images/tribuntechno.webp" alt="logo tribuntechno"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- gabung -->
+    <section class="bg-teal-50">
+        <div class= "mx-auto flex justify-between items-center w-4/5 py-10 max-md:flex-col">
+            <div>
+                <h1 class="text-2xl text-teal-600"><b>Tingkatkanlah skillmu</b> sekarang juga.</h1>
+                <p>Yuk persiapkan suksesmu, dimulai dari mempelajari teknologi saat ini.</p>
+                <button class="bg-rose-600 text-white px-5 py-3 font-bold rounded-xl duration-300 hover:bg-rose-400 mt-5">Bergabung Sekarang</button>
+            </div>
+            <div>
+                <img class="max-w-full w-96" src="images/codingstudio-cta.webp" alt="cta">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-gray-600">
+        <div class= "mx-auto text-white flex justify-between items-center w-11/12 py-10 max-md:flex-col ">
+            <div class="max-md:text-center mb-5">
+                <a href="#" class="px-3 hover:text-rose-500">CERTIFICATE</a>
+                <a href="#" class="px-3 hover:text-rose-500">BLOG - ARTIKEL PERKEMBANGAN TEKNOLOGI</a>
+                <a href="#" class="px-3 hover:text-rose-500 max-md:hidden">DAFTAR MENJADI PENGAJAR</a>
+                <a href="#" class="px-3 hover:text-rose-500"><i class="fa-solid fa-ellipsis"></i></a>
+            </div>
+            <div class="text-right text-sm max-md:text-center">
+                <div class="mb-3">
+                    <a href="#"><i class="fa-brands fa-linkedin text-black bg-white p-1 mx-1 rounded-full hover:bg-rose-500"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram text-black bg-white p-1 mx-1 rounded-full hover:bg-rose-500"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok text-black bg-white p-1 mx-1 rounded-full hover:bg-rose-500"></i></a>
+                </div>
+                <p class="my-1"><b>© 2023 - PT Semua Mahir Teknologi (SMART)</b></p>
+                <p class="my-1">Jl. Letjen M.T. Haryono No.Kavling 27, Kec. Tebet, Jakarta Selatan, DKI Jakarta</p>
+                <p class="my-1">WA : +6285155135188</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
