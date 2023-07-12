@@ -5,21 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Studio</title>
     <script src="https://kit.fontawesome.com/cb30ddf7c8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="dist/output.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
     <!-- menu -->
     <header>
         <nav class="flex justify-between items-center py-3 px-20 mx-auto">
-            <i class="fa-solid fa-bars hidden max-md:block"></i>
-            <div class="profile flex flex-row items-center">
+            <i id="bars" class="fa-solid fa-bars hidden max-md:block cursor-pointer"></i>
+            <div class=" flex justify-between items-center">
                 <a href="#" class="mx-5"><img class="rounded-xl" src="images/logo.webp" alt="Icon Home"></a>
                 <a href="#" class="text-sm max-md:hidden">Member Area</a>
             </div>
-            <div class="icon">
+            <div class="icon flex items-center">
                 <a href="#"><i class="fa-regular fa-bell text-2xl"></i></a>
-                <a href="#"><i class="fa-solid fa-user text-2xl border rounded-full p-1 mx-5 bg-gray-300 opacity-20 max-md:hidden"></i></a>
+                <div class="navbar max-md:absolute top-0 right-[100%] max-md:h-screen max-md:w-screen z-50 bg-white duration-300">
+                    <div class="max-md:flex max-md:justify-between max-md:items-center max-md:py-3 max-md:px-5 max-md:border-b-2 max-md:shadow-sm">
+                        <div class="max-md:flex">
+                            <a href="#"><i class="fa-solid fa-user text-2xl border rounded-full p-1 mx-5 bg-gray-300 opacity-20"></i></a>
+                            <div class="max-md:flex max-md:flex-col hidden">
+                                <h4><b>Anonymous</b></h4>
+                                <p>My Account</p>
+                            </div>
+                        </div>
+                        <i id="xmark" class="fa-solid fa-xmark hidden max-md:block cursor-pointer"></i>
+                    </div>
+                    <div class="max-md:ml-10 max-md:mt-5 hidden max-md:block">
+                        <a href="#" class="max-md:block max-md:py-3">Member Area</a>
+                        <a href="#" class="max-md:block max-md:py-3">Log Out</a>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -319,6 +333,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
